@@ -16,8 +16,10 @@
   * REMOVING OR CHANGING THE COPYRIGHT NOTICES IS NOT ALLOWED!
   *
   */
-  
-  
+
+$platz_a = '';
+$platz_b = '';
+
 if(($file!="") && ($kurve==1)){
   $addp=$_SERVER['PHP_SELF']."?action=graph&amp;file=".$file."&amp;stat1=";
   $show_stat1=isset($_GET['stat1'])?$_GET['stat1']:$stat1;
