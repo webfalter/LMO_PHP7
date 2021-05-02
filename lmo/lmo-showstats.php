@@ -207,7 +207,8 @@ $(function() {
     $file16 = str_replace($strs, $stre, $str);
     $temp11 = basename($diroutput);
     if (file_exists(PATH_TO_LMO."/$temp11/$file16")) {
-      require(PATH_TO_LMO."/$temp11/$file16");?>
+      require(PATH_TO_LMO."/$temp11/$file16");
+    }?>
 <div class="container">
   <div class="row">
     <div class="col text-center"><h2><?php echo $text[4009]?></h2></div>
